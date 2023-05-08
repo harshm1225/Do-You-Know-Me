@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do you know me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Do you know me ?</h1>
+      <div class="user-details-cont">
+        <label for="user">Enter your name:</label>
+        <input type="name" id="user" />
+      </div>
+
+      <form>
+        <div class="ques-1-cont">
+          <label for="question-1"
+            >Which is my favourite programming language ?</label
+          >
+          <select id="question-1">
+            <option value="HTML">HTML</option>
+            <option value="Python">Python</option>
+            <option value="Javascript">Javascript</option>
+            <option value="Java">Java</option>
+          </select>
+        </div>
+        <div class="ques-2-cont">
+          <label for="question-2">Which company's phone do I have ?</label>
+          <select id="question-2">
+            <option value="Samsung">Samsung</option>
+            <option value="You don't have a phone">
+              You don't have a phone
+            </option>
+            <option value="Apple">Apple</option>
+            <option value="Realme">Realme</option>
+          </select>
+        </div>
+        <div class="ques-3-cont">
+          <label for="question-3">In Which year am I studying now ?</label>
+          <select id="question-3">
+            <option value="1st">1st</option>
+            <option value="2nd">2nd</option>
+            <option value="3rd">3rd</option>
+            <option value="4rd">4rd</option>
+          </select>
+        </div>
+
+        <div class="ques-4-cont">
+          <label for="question-4"
+            >Which company's laptop I am currently using ?</label
+          >
+          <select id="question-4">
+            <option value="Lenovo">Lenovo</option>
+            <option value="Apple">Apple</option>
+            <option value="hp">hp</option>
+            <option value="Asus">Asus</option>
+          </select>
+        </div>
+        <div class="ques-5-cont">
+          <label for="question-5">Which is my favourite dish ?</label>
+          <select id="question-5">
+            <option value="Pani Puri">Pani Puri</option>
+            <option value="Roti Sabji">Roti Sabji</option>
+            <option value="Bhel">Bhel</option>
+            <option value="Bhel Puri">Bhel Puri</option>
+          </select>
+        </div>
+        <button type="submit" id="submit-btn">Submit</button>
+      </form>
+      <span id="output"></span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
